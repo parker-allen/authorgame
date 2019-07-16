@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CD161B122DE3E78003F580F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CD161AD22DE3E77003F580F /* main.cpp */; };
+		95DE55951EDE2FCB00CE5235 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95DE55941EDE2FCB00CE5235 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95DE558F1EDE2FCB00CE5235 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2CD161A322DE3DBF003F580F /* Author-ID XTRA_CRED */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Author-ID XTRA_CRED"; sourceTree = "<group>"; };
+		2CD161A422DE3E77003F580F /* FHvector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHvector.h; sourceTree = "<group>"; };
+		2CD161A522DE3E77003F580F /* HashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashTable.h; sourceTree = "<group>"; };
+		2CD161A622DE3E77003F580F /* test_dumas.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test_dumas.txt; sourceTree = "<group>"; };
+		2CD161A722DE3E77003F580F /* FHlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHlist.h; sourceTree = "<group>"; };
+		2CD161A822DE3E77003F580F /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		2CD161A922DE3E77003F580F /* test_austen.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test_austen.txt; sourceTree = "<group>"; };
+		2CD161AA22DE3E77003F580F /* test_twain.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test_twain.txt; sourceTree = "<group>"; };
+		2CD161AB22DE3E77003F580F /* test_verne.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test_verne.txt; sourceTree = "<group>"; };
+		2CD161AC22DE3E77003F580F /* test_dickens.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test_dickens.txt; sourceTree = "<group>"; };
+		2CD161AD22DE3E77003F580F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2CD161AE22DE3E77003F580F /* Instructions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Instructions.txt; sourceTree = "<group>"; };
+		2CD161B022DE3E78003F580F /* test_stevenson.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test_stevenson.txt; sourceTree = "<group>"; };
+		2CD161B222DE3E89003F580F /* test_dumas.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = test_dumas.txt; path = "Book DataBase/test_dumas.txt"; sourceTree = "<group>"; };
+		2CD161B322DE3E89003F580F /* robert_louis_stevenson.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = robert_louis_stevenson.txt; path = "Book DataBase/robert_louis_stevenson.txt"; sourceTree = "<group>"; };
+		2CD161B422DE3E89003F580F /* alexandre_dumas.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = alexandre_dumas.txt; path = "Book DataBase/alexandre_dumas.txt"; sourceTree = "<group>"; };
+		2CD161B522DE3E89003F580F /* charles_dickens.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = charles_dickens.txt; path = "Book DataBase/charles_dickens.txt"; sourceTree = "<group>"; };
+		2CD161B622DE3E89003F580F /* mark_twain.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = mark_twain.txt; path = "Book DataBase/mark_twain.txt"; sourceTree = "<group>"; };
+		2CD161B722DE3E89003F580F /* test_stevenson.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = test_stevenson.txt; path = "Book DataBase/test_stevenson.txt"; sourceTree = "<group>"; };
+		2CD161B822DE3E89003F580F /* jane_austen.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = jane_austen.txt; path = "Book DataBase/jane_austen.txt"; sourceTree = "<group>"; };
+		2CD161B922DE3E89003F580F /* .swp */ = {isa = PBXFileReference; lastKnownFileType = text; name = .swp; path = "Book DataBase/.swp"; sourceTree = "<group>"; };
+		2CD161BC22DE3E89003F580F /* test_twain.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = test_twain.txt; path = "Book DataBase/test_twain.txt"; sourceTree = "<group>"; };
+		2CD161BD22DE3E89003F580F /* test_verne.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = test_verne.txt; path = "Book DataBase/test_verne.txt"; sourceTree = "<group>"; };
+		2CD161BE22DE3E89003F580F /* test_dickens.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = test_dickens.txt; path = "Book DataBase/test_dickens.txt"; sourceTree = "<group>"; };
+		2CD161BF22DE3E89003F580F /* test_austen.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = test_austen.txt; path = "Book DataBase/test_austen.txt"; sourceTree = "<group>"; };
+		2CD161C022DE3E89003F580F /* jules_verne.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = jules_verne.txt; path = "Book DataBase/jules_verne.txt"; sourceTree = "<group>"; };
+		95DE55911EDE2FCB00CE5235 /* Author-ID XTRA_CRED */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Author-ID XTRA_CRED"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DE55941EDE2FCB00CE5235 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		95DE559C1EDF370100CE5235 /* DataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95DE558E1EDE2FCB00CE5235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95DE55881EDE2FCB00CE5235 = {
+			isa = PBXGroup;
+			children = (
+				95DE55931EDE2FCB00CE5235 /* Author-ID XTRA_CRED */,
+				2CD161A322DE3DBF003F580F /* Author-ID XTRA_CRED */,
+				95DE55921EDE2FCB00CE5235 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95DE55921EDE2FCB00CE5235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95DE55911EDE2FCB00CE5235 /* Author-ID XTRA_CRED */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95DE55931EDE2FCB00CE5235 /* Author-ID XTRA_CRED */ = {
+			isa = PBXGroup;
+			children = (
+				2CD161A822DE3E77003F580F /* DataBase.h */,
+				2CD161B922DE3E89003F580F /* .swp */,
+				2CD161B422DE3E89003F580F /* alexandre_dumas.txt */,
+				2CD161B522DE3E89003F580F /* charles_dickens.txt */,
+				2CD161B822DE3E89003F580F /* jane_austen.txt */,
+				2CD161C022DE3E89003F580F /* jules_verne.txt */,
+				2CD161B622DE3E89003F580F /* mark_twain.txt */,
+				2CD161B322DE3E89003F580F /* robert_louis_stevenson.txt */,
+				2CD161BF22DE3E89003F580F /* test_austen.txt */,
+				2CD161BE22DE3E89003F580F /* test_dickens.txt */,
+				2CD161B222DE3E89003F580F /* test_dumas.txt */,
+				2CD161B722DE3E89003F580F /* test_stevenson.txt */,
+				2CD161BC22DE3E89003F580F /* test_twain.txt */,
+				2CD161BD22DE3E89003F580F /* test_verne.txt */,
+				2CD161A722DE3E77003F580F /* FHlist.h */,
+				2CD161A422DE3E77003F580F /* FHvector.h */,
+				2CD161A522DE3E77003F580F /* HashTable.h */,
+				2CD161AE22DE3E77003F580F /* Instructions.txt */,
+				2CD161AD22DE3E77003F580F /* main.cpp */,
+				2CD161A922DE3E77003F580F /* test_austen.txt */,
+				2CD161AC22DE3E77003F580F /* test_dickens.txt */,
+				2CD161A622DE3E77003F580F /* test_dumas.txt */,
+				2CD161B022DE3E78003F580F /* test_stevenson.txt */,
+				2CD161AA22DE3E77003F580F /* test_twain.txt */,
+				2CD161AB22DE3E77003F580F /* test_verne.txt */,
+				95DE55941EDE2FCB00CE5235 /* main.cpp */,
+				95DE559C1EDF370100CE5235 /* DataBase.h */,
+			);
+			path = "Author-ID XTRA_CRED";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95DE55901EDE2FCB00CE5235 /* Author-ID XTRA_CRED */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95DE55981EDE2FCB00CE5235 /* Build configuration list for PBXNativeTarget "Author-ID XTRA_CRED" */;
+			buildPhases = (
+				95DE558D1EDE2FCB00CE5235 /* Sources */,
+				95DE558E1EDE2FCB00CE5235 /* Frameworks */,
+				95DE558F1EDE2FCB00CE5235 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Author-ID XTRA_CRED";
+			productName = "Author-ID XTRA_CRED";
+			productReference = 95DE55911EDE2FCB00CE5235 /* Author-ID XTRA_CRED */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95DE55891EDE2FCB00CE5235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "IronHack Studios";
+				TargetAttributes = {
+					95DE55901EDE2FCB00CE5235 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 95DE558C1EDE2FCB00CE5235 /* Build configuration list for PBXProject "Author-ID XTRA_CRED" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 95DE55881EDE2FCB00CE5235;
+			productRefGroup = 95DE55921EDE2FCB00CE5235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95DE55901EDE2FCB00CE5235 /* Author-ID XTRA_CRED */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95DE558D1EDE2FCB00CE5235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD161B122DE3E78003F580F /* main.cpp in Sources */,
+				95DE55951EDE2FCB00CE5235 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		95DE55961EDE2FCB00CE5235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		95DE55971EDE2FCB00CE5235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		95DE55991EDE2FCB00CE5235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95DE559A1EDE2FCB00CE5235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95DE558C1EDE2FCB00CE5235 /* Build configuration list for PBXProject "Author-ID XTRA_CRED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DE55961EDE2FCB00CE5235 /* Debug */,
+				95DE55971EDE2FCB00CE5235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95DE55981EDE2FCB00CE5235 /* Build configuration list for PBXNativeTarget "Author-ID XTRA_CRED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DE55991EDE2FCB00CE5235 /* Debug */,
+				95DE559A1EDE2FCB00CE5235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95DE55891EDE2FCB00CE5235 /* Project object */;
+}
